@@ -10,9 +10,7 @@ import { Articles } from './components/Articles';
 import { Testimonials } from './components/Testimonials';
 import { CTA } from './components/CTA';
 import { Footer } from './components/Footer';
-import { Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import RegistrationModal from "./pembayaran/RegistrationModal";
+
 
 export default function App() {
   return (
