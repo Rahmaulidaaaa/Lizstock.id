@@ -49,10 +49,13 @@ export function Navigation() {
         {/* CTA Button */}
 import Link from "next/link";
 
-<Link href="/pembayaran">
+<Link to="/pembayaran">
   <motion.button
-    className="hidden md:block px-6 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg"
-    whileHover={{ scale: 1.05 }}
+    className="hidden md:block px-6 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg hover:shadow-lg hover:shadow-green-500/50 transition-all"
+    whileHover={{
+      scale: 1.05,
+      boxShadow: "0 0 20px rgba(0,200,83,0.5)",
+    }}
     whileTap={{ scale: 0.95 }}
   >
     Daftar Sekarang
