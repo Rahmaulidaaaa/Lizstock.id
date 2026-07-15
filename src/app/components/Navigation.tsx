@@ -49,7 +49,7 @@ export function Navigation() {
         {/* CTA Button */}
 import Link from "next/link";
 
-<Link href="/pembayaran">
+<Link href="/pembayaran/RegistrationModal.tsx">
   <motion.button
     className="hidden md:block px-6 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg"
     whileHover={{ scale: 1.05 }}
