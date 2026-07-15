@@ -74,12 +74,17 @@ export function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          <button className="px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold flex items-center gap-2 hover:scale-105 transition">
-
-            Daftar Sekarang
-            <ArrowRight size={20} />
-
-          </button>
+          <motion.a
+  href="https://linktr.ee/lizzstock.id"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 rounded-xl bg-gradient-to-r from-green-500 to-emerald-600 text-white font-semibold flex items-center gap-2 hover:scale-105 transition"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  Gabung Grup Komunitas
+  <ArrowRight size={20} />
+</motion.a>
 
           <button className="px-8 py-4 rounded-xl bg-black/40 border border-white/20 backdrop-blur-md text-white flex items-center gap-3 hover:bg-black/60 transition">
 

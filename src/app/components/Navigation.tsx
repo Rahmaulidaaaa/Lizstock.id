@@ -47,13 +47,19 @@ export function Navigation() {
         </div>
 
         {/* CTA Button */}
-        <motion.button
-          className="hidden md:block px-6 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg hover:shadow-lg hover:shadow-green-500/50 transition-all"
-          whileHover={{ scale: 1.05, boxShadow: "0 0 20px rgba(0, 200, 83, 0.5)" }}
-          whileTap={{ scale: 0.95 }}
-        >
-          Daftar Sekarang
-        </motion.button>
+        <motion.a
+  href="https://wa.me/62895705727060"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hidden md:block px-6 py-2.5 bg-gradient-to-r from-green-500 to-emerald-600 text-white rounded-lg hover:shadow-lg hover:shadow-green-500/50 transition-all text-center"
+  whileHover={{
+    scale: 1.05,
+    boxShadow: "0 0 20px rgba(0, 200, 83, 0.5)",
+  }}
+  whileTap={{ scale: 0.95 }}
+>
+  Daftar Sekarang
+</motion.a>
       </div>
     </motion.nav>
   );

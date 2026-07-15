@@ -5,7 +5,7 @@ export function Programs() {
   const programs = [
     {
       level: 'Beginner',
-      title: 'Program Dasar',
+      title: 'VVIP Class Signal',
       icon: BookOpen,
       prices: [
   { label: "Sebulan", value: "Rp 250.000" }, 
@@ -23,7 +23,7 @@ export function Programs() {
     },
     {
       level: 'Intermediate',
-      title: 'VVIP + Live Trade',
+      title: 'Expert Class',
       icon: TrendingUp,
      prices: [
   { label: "Mingguan", value: "Rp 30.000" },
@@ -43,7 +43,7 @@ export function Programs() {
     },
     {
       level: 'Advanced',
-      title: 'Program Expert',
+      title: 'Platinum Class',
       icon: Crown,
       duration: '',
       sessions: '',

@@ -8,18 +8,21 @@ export function Mentors() {
       title: 'Scalper',
       specialization: 'Mentor 1',
       image: '/images/mentor1.png',
+      Instagram: 'https://www.instagram.com/aziz_novrian?igsh=MWRmOXd4aW9ibXRrcQ=='
     },
     {
-      name: 'Gunawan Cahya',
+      name: 'Gunawan Cahya Ramadhan',
       title: 'Fundamental Analysis',
       specialization: 'Mentor 2',
       image: '/images/mentor2.png',
+      Instagram: 'https://www.instagram.com/gunnn00_?igsh=MXcwNGExdHpiYWRuNA=='
     },
     {
-      name: ' Hans',
+      name: 'Adisya Nadhif Dwi Antoko',
       title: 'Technical Analysis',
       specialization: 'Mentor 3',
       image: '/images/mentor3.png',
+      Instagram: 'https://www.instagram.com/ndhpdw_?igsh=d2VkMnV3a3VqY21l'
     },
   ];
 
@@ -93,15 +96,17 @@ export function Mentors() {
                   </div>
                 </div>
 
-                {/* LinkedIn Link */}
-                <motion.button
-                  className="w-full px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 flex items-center justify-center gap-2 text-sm transition-all"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  <Instagram className="w-4 h-4" />
-                  View Profile
-                </motion.button>
+                <motion.a
+  href={mentor.Instagram}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="w-full px-4 py-2 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-gray-300 flex items-center justify-center gap-2 text-sm transition-all"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  <Instagram className="w-4 h-4" />
+  View Profile
+</motion.a>
 
                 {/* Glow effect */}
                 <div className="absolute inset-0 bg-gradient-to-t from-green-500/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none rounded-2xl" />
