@@ -1,5 +1,4 @@
 import { motion } from 'motion/react';
-import { Link } from "react-router-dom";
 export function Navigation() {
   const navItems = ['Beranda', 'Tentang','Program', 'Keuntungan', 'Mentor', 'Artikel', 'Testimoni', 'Kontak'];
 
