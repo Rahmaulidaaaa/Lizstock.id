@@ -118,7 +118,7 @@ export function Footer() {
 
             {/* Copyright */}
             <div className="w-full text-gray-400 text-sm text-center">
-  <p>© 2026 Sekolah Pasar Modal. All rights reserved.</p>
+  <p>© 2026 Lizstock - All rights reserved.</p>
 </div>
           </div>
 
